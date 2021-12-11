@@ -34,6 +34,7 @@ public:
      */
     bool operator <(const SortObject& other);
     bool operator >(const SortObject& other);
+    bool operator ==(const SortObject& other);
 
 private:
     int m_value;

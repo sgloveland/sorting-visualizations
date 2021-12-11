@@ -41,3 +41,7 @@ bool SortObject::operator >(const SortObject& other) {
     return m_value > other.m_value;
 }
 
+bool SortObject::operator ==(const SortObject& other) {
+    return m_value == other.m_value;
+}
+
